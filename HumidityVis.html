@@ -1,0 +1,86 @@
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Comparison</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a style="font-size: 30px; color:white; background:teal; padding:10px" class="navbar-brand" href="index.html"><strong>Latitude</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="MaxTempVis.html">Max Temperature</a>
+                        <a class="dropdown-item" href="HumidityVis.html">Humidity</a>
+                        <a class="dropdown-item" href="CloudinessVis.html">Cloudiness</a>
+                        <a class="dropdown-item" href="WindSpeedVis.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparisons.html">Comparisons</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row" style="margin:20px;">
+            <div style="background:white" class="col-lg-6 my-8 mx-2 p-5">
+                <h1> Humidity </h1>
+                <hr>
+                <a href="HumidityVis.html">
+                    <img width="95%" src="Resources/images/Fig2.png"><br>
+                </a>
+
+                <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Degree Latitude). More
+                    interestingly, however, is the fact that the Southern Hemisphere tends to be cooler this time of year than the 
+                    Northern Hemisphere. This may be due to the tilt of the earth at the time the data was gathered.
+                </p>
+            </div>
+            
+            <div style="background:white"  class="col-lg-5 my-8 mx-2 p-5">
+                <h1>Visualizations</h1>
+                <hr>
+                <a href="MaxTempVis.html"><img src="Resources/images/Fig1.png"
+                    class="img-responsive float-lg-left m-2" width="45%"></a>
+                <a href="HumidityVis.html"><img src="Resources/images/Fig2.png"
+                    class="img-responsive float-lg-left m-2" width="45%"></a>
+                <a href="CloudinessVis.html"><img src="Resources/images/Fig3.png"
+                    class="img-responsive float-lg-left m-2" width = "45%"></a>
+                <a href="WindSpeedVis.html"><img src="Resources/images/Fig4.png"
+                    class="img-responsive float-lg-left m-2" width="45%"></a>
+
+
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
